@@ -98,6 +98,6 @@ Button a {
 }
 
 .blg-btn:hover {
-    background-color: lightslategray;
+    background-color: #e52165;
     cursor: pointer;
 }
