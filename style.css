@@ -59,6 +59,12 @@ Button a {
     color: white;
 }
 
+/* middle part start  */
+
+.middle-part {
+    display: flex;
+}
+
 .mid-one {
     display: flex;
     flex-direction: column-reverse;
@@ -67,7 +73,6 @@ Button a {
     width: 250px;
     height: 250px;
     border-radius: 10px;
-
 }
 
 .bt-color {
@@ -81,6 +86,8 @@ Button a {
     padding-top: 10px;
 
 }
+
+
 
 .mid-one a {
     text-decoration: none;
@@ -100,4 +107,42 @@ Button a {
 .blg-btn:hover {
     background-color: #e52165;
     cursor: pointer;
+}
+
+
+/* card part start  */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+    gap: 20px;
+
+}
+
+.card {
+    box-shadow: 3px 3px 3px 3px rgb(150, 153, 155);
+    border-radius: 6px;
+
+}
+
+.card-info {
+    padding: 20px;
+}
+
+.card-info h6 {
+    background-color: white;
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.others-info {
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
 }
