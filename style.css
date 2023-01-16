@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.banner-part {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.banner-text {
+    width: 50%;
+    color: white;
+    margin: 50px;
+}
+
+.banner-text h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    margin-bottom: 10px;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    margin-left: 20px;
+    height: 100%;
+}
+
+Button {
+    background-color: red;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 65px;
+}
+
+Button a {
+    text-decoration: none;
+    color: white;
+}
+
+.mid-one {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.bt-color {
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.mid-one a {
+    text-decoration: none;
+}
+
+.blg-btn {
+    background-color: rgb(161, 12, 12);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.blg-btn:hover {
+    background-color: lightslategray;
+    cursor: pointer;
+}
