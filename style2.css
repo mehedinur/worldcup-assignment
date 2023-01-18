@@ -9,6 +9,8 @@ body {
 
 }
 
+/* banner part start */
+
 .container {
     margin: 5%;
 
@@ -61,6 +63,8 @@ Button a {
     color: white;
 }
 
+/* banner part end */
+
 /* middle part start  */
 
 .middle-part {
@@ -108,6 +112,8 @@ Button a {
     background-color: #e52165;
     cursor: pointer;
 }
+
+/* middle part end */
 
 
 /* card part start  */
@@ -313,7 +319,6 @@ ul li {
         margin-top: 0px;
     }
 
-
     /* card part end */
 }
 
@@ -330,7 +335,10 @@ ul li {
 /* MediaQuery tablet-part end */
 
 /*MediaQuery mobile-part start*/
+
 @media only screen and (max-width: 899px) {
+
+    /* banner part start */
     .banner-part {
         background-color: black;
         display: inline-block;
@@ -387,6 +395,8 @@ ul li {
         text-decoration: none;
         color: white;
     }
+
+    /* banner part end */
 
     /* middle part Start */
     .middle-part {
@@ -454,15 +464,20 @@ ul li {
     /* card part end */
 
     /* footer part start  */
-
+    ul {
+        padding-left: 0px;
+    }
 
     ul li {
         display: flex;
         flex-direction: row;
         justify-content: center;
+
     }
 
     .social-icon {
         margin-left: 5px;
     }
+
+    /* footer part end */
 }
